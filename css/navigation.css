@@ -1,0 +1,21 @@
+.navigation {
+    background-color: #96c2b39e;
+    border: 5px rgba(36, 131, 84, 0.644);
+}
+
+.navigation__link {
+    text-decoration: none;
+    color: #0f100e; 
+}
+
+.navigation__list {
+    list-style-type: none;
+    padding: 20px;
+    text-align: center;
+    font-size: 23px;
+    text-shadow: 2px 4px 6px #e3f4f6;
+}
+
+.navigation__listItem {
+    margin: 10px 0;
+}

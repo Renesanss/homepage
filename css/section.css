@@ -1,0 +1,28 @@
+.section__photo {
+    border: 5px rgba(36, 131, 84, 0.644);
+    border-style: groove; 
+    max-width: 300px;
+    margin-top: 5px;
+}
+
+.section__header {
+    text-shadow: 2px 2px 10px rgba(25, 27, 27, 0.5);
+}
+
+.section__paragraph {
+    border: 5px rgba(36, 131, 84, 0.644);
+    border-style: groove;
+    border-radius: 55px 10px 10px 55px;
+    padding: 20px;
+    margin: auto;
+    box-shadow: 5px -6px 34px 5px rgba(226, 211, 232, 0.33),
+        inset 1px 1px 17px 13px rgba(236, 220, 239, 0.62);
+    text-shadow: 2px 2px 5px rgba(25, 27, 27, 0.719);
+    line-height: 2;
+}
+
+.section__list {
+    padding-left: 20px;
+    list-style-type: none;
+}
+
