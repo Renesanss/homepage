@@ -7,7 +7,7 @@ html {
 }
 
 .body {
-    background-color: #96c2b381;
+    background-image: url("../images/background.jpg");
     font-family: 'Lato', sans-serif;
     max-width: 1000px;
     margin: 2px auto;
