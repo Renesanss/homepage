@@ -1,6 +1,6 @@
 .section__photo {
-    border: 5px rgba(36, 131, 84, 0.644);
-    border-style: groove; 
+    border: 1px rgba(36, 131, 84, 0.644);
+    border-style: groove;
     max-width: 300px;
     margin-top: 5px;
 }
@@ -10,14 +10,15 @@
 }
 
 .section__paragraph {
-    border: 5px rgba(36, 131, 84, 0.644);
+    background-color: #96c2b39e;
+    border: 1px rgba(36, 131, 84, 0.644);
     border-style: groove;
-    border-radius: 55px 10px 10px 55px;
+    border-radius: 10px 10px;
     padding: 20px;
     margin: auto;
     box-shadow: 5px -6px 34px 5px rgba(226, 211, 232, 0.33),
-        inset 1px 1px 17px 13px rgba(236, 220, 239, 0.62);
-    text-shadow: 2px 2px 5px rgba(25, 27, 27, 0.719);
+        inset 1px 1px 25px 20px rgba(220, 237, 239, 0.76);
+    text-shadow: 2px 2px 5px rgba(166, 172, 172, 0.658);
     line-height: 2;
 }
 
