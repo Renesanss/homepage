@@ -14,16 +14,13 @@ html {
     border: 3px solid rgba(36, 131, 84, 0.644);
     padding: 20px;
     text-align: center;
-    
 }
 
 .dark {
-    color: #adf1d7e3 ;
-    background: #1a221fea;
+    color: #ffffff;
+    text-shadow: 2px 2px 3px #181b1b;
+    background: #101413f3;
 }
-
-
-
 
 .header {
     color: rgb(1 31 13 / 90%);
@@ -36,11 +33,6 @@ html {
     margin-inline: 5px;
 }
 
-
-
-
-
-
 .table {
     border-collapse: collapse;
     width: 100%;
@@ -48,16 +40,14 @@ html {
 
 .tableCell {
     border: 1px solid rgb(39, 38, 38);
-padding: 15px;
-text-align: center;
-vertical-align: middle;
+    padding: 15px;
+    text-align: center;
+    vertical-align: middle;
 }
 
 .tableRow:hover {
     background: #9fcebe80;
 }
-
-
 
 .section__container {
     overflow-x: auto;
@@ -67,11 +57,8 @@ vertical-align: middle;
     margin: 10px 0;
 }
 
-
-
 .footer {
     text-align: center;
-margin: 50px auto;
-padding: 10px 0px;
+    margin: 50px auto;
+    padding: 10px 0px;
 }
-
