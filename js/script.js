@@ -4,7 +4,7 @@
     }
 
 
-    const theme_buttonClick = () => {
+    const onThemeButtonClick = () => {
         const body = document.querySelector(".body");
         const themeName = document.querySelector(".themeName");
         body.classList.toggle("dark");
@@ -13,10 +13,10 @@
     };
 
     const init = () => {
-        const theme__button = document.querySelector(".theme__button");
+        const themeButton = document.querySelector(".theme__button");
 
 
-        theme__button.addEventListener("click", theme_buttonClick);
+        themeButton.addEventListener("click", onThemeButtonClick);
         welcome();
     }
 
@@ -30,7 +30,7 @@
             section__photo.remove();
         });
     }
-   
-photoRemove();
+   photoRemove();
+
 }
 
