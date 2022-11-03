@@ -22,12 +22,15 @@
 
     init();
 
-    const section__button = document.querySelector(".section__button");
-    const section__photo = document.querySelector(".section__photo");
-
-    section__button.addEventListener("click", () => {
-        section__photo.remove();
-    });
-
+    const photoRemove = () => {
+        const section__button = document.querySelector(".section__button");
+        const section__photo = document.querySelector(".section__photo");
+    
+        section__button.addEventListener("click", () => {
+            section__photo.remove();
+        });
+    }
+   
+photoRemove();
 }
 
